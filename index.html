@@ -1505,16 +1505,21 @@
             }
         }
 
-        @media (max-width: 767.98px) { 
-            #squarespace-quiz-container .mode-selection h2, #squarespace-quiz-container .mode-selection p{
+        @media (max-width: 767.98px) {
+
+            #squarespace-quiz-container .mode-selection h2,
+            #squarespace-quiz-container .mode-selection p {
                 display: none;
             }
-            .mode-option.training-option{
+
+            .mode-option.training-option {
                 display: block !important;
             }
-            #squarespace-quiz-container .mode-option{
+
+            #squarespace-quiz-container .mode-option {
                 min-height: fit-content !important;
             }
+
             .mode-button.exam {
                 display: block !important;
                 position: relative !important;
@@ -1522,9 +1527,11 @@
                 left: inherit !important;
                 right: inherit !important;
             }
+
             .quiz-content {
                 height: 45rem;
             }
+
             #squarespace-quiz-container .action-buttons {
                 position: absolute;
                 bottom: 34px;
@@ -1532,40 +1539,55 @@
                 transform: translateX(-50%);
                 width: 100%;
             }
+
             .cactionbtn {
                 position: relative !important;
                 left: inherit !important;
                 transform: inherit !important;
             }
-         }
-         @media (max-width: 420px) {
 
-            #squarespace-quiz-container .mode-icon{
+            .options-container {
+                height: 17rem;
+                overflow: auto;
+            }
+        }
+
+        @media (max-width: 420px) {
+
+            #squarespace-quiz-container .mode-icon {
                 width: 28px;
                 height: 28px;
                 font-size: 12px;
             }
+
             .quiz-content {
                 height: 90vh;
+                overflow: auto;
             }
-            #squarespace-quiz-container .mode-description{
+
+            #squarespace-quiz-container .mode-description {
                 font-size: 12px;
                 line-height: normal;
                 margin-bottom: 10px;
             }
-            .mode-button.training {
+
+            .mode-button.training,
+            .mode-button.exam {
                 position: relative !important;
                 font-size: 12px !important;
             }
+
             #squarespace-quiz-container .mode-option {
                 min-height: auto !important;
                 height: auto !important;
                 flex: auto;
             }
+
             .question-container {
                 margin-top: 0 !important;
                 padding-top: 0 !important;
             }
+
             .question-text {
                 padding: 0 !important;
                 margin: 0 !important;
@@ -1714,7 +1736,7 @@
                     <canvas id="resultsChart"></canvas>
                 </div>
                 <p class="results-text"></p>
-                <div class="action-buttons cactionbtn"
+                <div class="action-buttons cactionbtn dskldfskldfkl"
                     style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px; width: 100%; max-width: 250px;">
                     <button class="filter-button wrong-questions disabled"
                         style="width: 100%; padding: 12px 20px; font-size: 16px; font-weight: 500; border-radius: 4px; border: none; background-color: #6c757d !important; color: #e6e6e6 !important; cursor: not-allowed !important; opacity: 0.65 !important; pointer-events: none !important; text-transform: none;"
@@ -1861,6 +1883,17 @@
                             { id: "q1_a4", text: "Ein Online-Shop-System" }
                         ],
                         correctOptionId: "q1_a2"
+                    },
+                    {
+                        "id": "q1",
+                        "question": "Select the correct definition for 'ESTIMATED TIME OF ARRIVAL' in respect to IFR flights:",
+                        "options": [
+                            { "id": "q1_a1", "text": "The time at which it is estimated that the aircraft will arrive over that designated point defined by reference to navigation aids, from which it is intended, that an instrument approach will be commenced" },
+                            { "id": "q1_a2", "text": "The time at which the aircraft will actually arrive over that designated point defined by reference to navigation aids, from which it is intended, that a visual approach will be commenced" },
+                            { "id": "q1_a3", "text": "The time at which it is estimated that the aircraft will arrive over that designated point defined by reference to visual aids, from which it is intended, that an approach will be commenced" },
+                            { "id": "q1_a4", "text": "In any case that time at which the aircraft will arrive over the aerodrome" }
+                        ],
+                        "correctOptionId": "q1_a1"
                     },
                     {
                         id: "q2",
